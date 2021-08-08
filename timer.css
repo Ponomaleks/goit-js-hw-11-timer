@@ -1,0 +1,29 @@
+body {
+  background: #111;
+}
+
+.timer {
+  width: 385px;
+  display: flex;
+  margin: 50px auto 5px;
+}
+
+.timer .value {
+  width: 85px;
+  height: 70px;
+  font-size: 60px;
+  line-height: 68px;
+  color: #e1e1e1;
+  letter-spacing: 10px;
+  position: relative;
+  padding-left: 0px;
+}
+
+.timer .label {
+  display: block;
+  width: 85px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  /* margin-left: auto; */
+}
